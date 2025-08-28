@@ -1,0 +1,6 @@
+"","Estimate","Std. Error","t value","Pr(>|t|)","formula","response_var","predictor_var"
+"(Intercept)",0.00238621948068683,0.104358517122805,0.0228655939781017,0.981803978333611,"acc ~ avg_log_freq + mean_mem*avg_cosine_dist_broad_use","correct","avg_cosine_dist_broad_use"
+"avg_log_freq",-0.108078557017779,0.133505324222338,-0.809544920004734,0.420163021599162,"acc ~ avg_log_freq + mean_mem*avg_cosine_dist_broad_use","correct","avg_cosine_dist_broad_use"
+"mean_mem",0.504326576884512,0.175754842581659,2.86948893968707,0.00503639012474568,"acc ~ avg_log_freq + mean_mem*avg_cosine_dist_broad_use","correct","avg_cosine_dist_broad_use"
+"avg_cosine_dist_broad_use",0.102457719789021,0.10873493793689,0.942270458171292,0.348371250325381,"acc ~ avg_log_freq + mean_mem*avg_cosine_dist_broad_use","correct","avg_cosine_dist_broad_use"
+"mean_mem:avg_cosine_dist_broad_use",-0.22322224929525,0.166055088723924,-1.34426623725076,0.181965856836911,"acc ~ avg_log_freq + mean_mem*avg_cosine_dist_broad_use","correct","avg_cosine_dist_broad_use"

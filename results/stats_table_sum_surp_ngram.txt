@@ -1,0 +1,24 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c}
+\hline
+ & Model 1 \\
+\hline
+(Intercept)                & $0.0599 \; (0.0293)^{*}$    \\
+avg\_log\_freq             & $-0.0375 \; (0.0394)$       \\
+mean\_mem                  & $0.5251 \; (0.0402)^{***}$  \\
+sum\_surp\_ngram           & $0.0760 \; (0.0333)^{*}$    \\
+mean\_mem:sum\_surp\_ngram & $-0.1286 \; (0.0389)^{***}$ \\
+\hline
+R$^2$                      & $0.1954$                    \\
+Adj. R$^2$                 & $0.1922$                    \\
+Num. obs.                  & $1000$                      \\
+\hline
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{sum-surp-ngram as predictor}
+\label{table:sum-surp-ngram}
+\end{center}
+\end{table}
+

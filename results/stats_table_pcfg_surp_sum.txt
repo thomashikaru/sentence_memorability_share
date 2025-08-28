@@ -1,0 +1,24 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c}
+\hline
+ & Model 1 \\
+\hline
+(Intercept)               & $0.0722 \; (0.0289)^{*}$    \\
+avg\_log\_freq            & $-0.0070 \; (0.0370)$       \\
+mean\_mem                 & $0.4919 \; (0.0395)^{***}$  \\
+pcfg\_surp\_sum           & $0.1916 \; (0.0328)^{***}$  \\
+mean\_mem:pcfg\_surp\_sum & $-0.1594 \; (0.0349)^{***}$ \\
+\hline
+R$^2$                     & $0.2378$                    \\
+Adj. R$^2$                & $0.2347$                    \\
+Num. obs.                 & $1000$                      \\
+\hline
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{pcfg-surp-sum as predictor}
+\label{table:pcfg-surp-sum}
+\end{center}
+\end{table}
+

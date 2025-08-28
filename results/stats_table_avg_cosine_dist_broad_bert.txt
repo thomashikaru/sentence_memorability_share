@@ -1,0 +1,24 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c}
+\hline
+ & Model 1 \\
+\hline
+(Intercept)                              & $0.0493 \; (0.0289)$       \\
+avg\_log\_freq                           & $-0.0438 \; (0.0356)$      \\
+mean\_mem                                & $0.4726 \; (0.0396)^{***}$ \\
+avg\_cosine\_dist\_broad\_bert           & $0.2021 \; (0.0320)^{***}$ \\
+mean\_mem:avg\_cosine\_dist\_broad\_bert & $-0.0699 \; (0.0401)$      \\
+\hline
+R$^2$                                    & $0.2144$                   \\
+Adj. R$^2$                               & $0.2113$                   \\
+Num. obs.                                & $1000$                     \\
+\hline
+\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{avg-cosine-dist-broad-bert as predictor}
+\label{table:avg-cosine-dist-broad-bert}
+\end{center}
+\end{table}
+
