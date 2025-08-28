@@ -23,7 +23,6 @@ if (length(script_path) > 0) {
 }
 
 # Define file paths and output directory
-unigram_file <- "SUBTLEXus74286wordstextversion.txt"
 processed_data_file <- "trial_level_data.csv"
 confusability_data_file <- "confusability_output/confusability_data.csv"
 sentence_summary_data_file <- "sentence_memorability_data.csv"
