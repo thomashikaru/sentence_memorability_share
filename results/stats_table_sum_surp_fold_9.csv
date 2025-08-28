@@ -1,6 +1,0 @@
-"","Estimate","Std. Error","t value","Pr(>|t|)","formula","response_var","predictor_var"
-"(Intercept)",0.0732117174330838,0.0803719543444122,0.910911250451305,0.364623732217204,"acc ~ avg_log_freq + mean_mem*sum_surp","correct","sum_surp"
-"avg_log_freq",0.0778346478045789,0.118385198160937,0.657469421969186,0.512452447843807,"acc ~ avg_log_freq + mean_mem*sum_surp","correct","sum_surp"
-"mean_mem",0.408002628867521,0.0971154991152905,4.20121023507444,5.94655785706046e-05,"acc ~ avg_log_freq + mean_mem*sum_surp","correct","sum_surp"
-"sum_surp",0.280734383242267,0.128653456937703,2.1820974727341,0.03154260171631,"acc ~ avg_log_freq + mean_mem*sum_surp","correct","sum_surp"
-"mean_mem:sum_surp",-0.154537547635047,0.0932689696974356,-1.65690205581091,0.100804119937653,"acc ~ avg_log_freq + mean_mem*sum_surp","correct","sum_surp"
